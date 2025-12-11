@@ -27,8 +27,8 @@ The **core idea of the project** is to provide a **systematic, robust way to acc
 
 ## Use Cases
 
-* **Unexported `ntdll` internals**
-  Generate signatures for functions like `LdrpInitializeTls`, `RtlpHpHeapHandleError`, etc.
+* **Unexported windows internals**
+  Generate signatures for functions like `LdrpInitializeTls`, `RtlpInsertInvertedFunctionTableEntry`, etc.
 * **Malware analysis**
   Identify API usage in packed or obfuscated binaries.
 * **Game hacking / anti-cheat research**
