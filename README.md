@@ -11,7 +11,7 @@
 * **Binary signatures** (byte patterns with wildcards) for **unexported and exported** functions
 * **RVA and file offsets** for locating those functions directly in binaries
 * Cross-build signatures that work across **many Windows versions**
-* Support for multiple **architectures**: x64, x86, ARM64, WoW64
+* Support for multiple **architectures**: x64, ARM64, WoW64
 
 The **core idea of the project** is to provide a **systematic, robust way to access unexported functions** across many Windows 10/11 builds. It leverages:
 
@@ -152,7 +152,6 @@ pe-signgen --signature DLL!FUNCTION [OPTIONS]
 
 ```bash
 --arch x64   # default
---arch x86
 --arch arm64
 --arch wow64
 ```
